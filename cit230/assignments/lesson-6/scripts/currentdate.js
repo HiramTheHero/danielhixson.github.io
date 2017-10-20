@@ -10,9 +10,5 @@ function myFunction() {
     weekday[6] = "Saturday";
 
     var n = weekday[d.getDay()];
-    document.getElementById("demo").innerHTML = n;
-}
-
-function toggleNavMenu() {
-    document.getElementById("navigation")[0].classList.toggle("responsive");
+    document.getElementById("currentdate").innerHTML = n;
 }
