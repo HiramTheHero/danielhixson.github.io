@@ -55,8 +55,9 @@
             <div class="current">
                 Sunny
                 <picture class="sunnyImage">
-                    <img src="images/franklin-large.jpg" alt="Sunny Skies" sizes="1100w"
-                    srcset="images/franklin-medium.png 200vw, images/franklin-small.png 50vw">
+                    <source media="(min-width: 64em)" srcset="images/franklin-large.jpg">
+                    <source media="(min-width: 37.5em)" srcset="images/franklin-medium.jpg">
+                    <img src="images/franklin-small.jpg" alt="Sunny Skies" style="width: auto">
                 </picture>
             </div>
             <div class="conditions">
