@@ -1,0 +1,125 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font: Arial;
+    background-color: lightgrey;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 1500px;
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    font-family: sans-serif;
+}
+
+header h1 {
+    box-sizing: inherit;
+}
+
+header img {
+
+}
+
+header .subheading {}
+
+nav {}
+
+nav button {}
+
+nav ul {}
+
+nav ul li {}
+
+nav ul li a {}
+
+nav ul li.active a {}
+
+nav ul li a:hover {}
+
+main {}
+
+main h2 {}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {
+    width: 70%;
+    position: relative;
+}
+
+section {}
+
+article p.town-article img {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    position: relative;
+    width: 200px;
+    /* fill the page in the small/phone view */
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 5000px;
+    background-color: white;
+}
+
+footer aside {}
+
+footer>p {
+
+
+
+}
+
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+
+/* Other Class Selectors */
+
+li {
+    display: none;
+}
+
+.forecast {
+    display: none;
+}
+.container{
+    position: relative;
+}
+.weatherdata{
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+}
+.current{
+    flex: 1;
+}
+.sunnyImage{
+    width: 20px;
+}
+
+
+
+
+
