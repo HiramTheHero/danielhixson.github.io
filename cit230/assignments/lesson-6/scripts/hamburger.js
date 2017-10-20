@@ -1,6 +1,6 @@
 function toggleNavMenu()
 {
-    alert(TESTING);
+    alert("TESTING");
     var element = document.getElementById("navigation");
     element.classList.toggle("theMenu");
 }
