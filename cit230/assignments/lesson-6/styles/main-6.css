@@ -42,7 +42,9 @@ nav {}
 
 nav button {}
 
-nav ul {}
+nav ul {
+    display: none;
+}
 
 nav ul li {}
 
@@ -118,11 +120,11 @@ li {
 /*.sunnyImage{
     width: 20px;
 } */
-.theMenu{
-    display: none;
+.theMenu {
+    position: relative;
+    display: inline-block;
 }
-
-
-
-
-
+.dropdown-content li {
+    position: relative;
+    display: inline-block;
+}
