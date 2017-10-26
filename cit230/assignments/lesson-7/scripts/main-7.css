@@ -59,13 +59,11 @@ main {}
 main h2 {}
 
 main figure {
-    margin: 0 0 .2rem 2%;
-    width: 96%;
+
 }
 
 main figure img {
     width: 70%;
-    position: relative;
 }
 
 section {}
@@ -80,7 +78,6 @@ article p.town-article img {
 
 footer {
     position: fixed;
-    bottom: 0;
     width: 5000px;
     background-color: white;
 }
@@ -118,13 +115,19 @@ li {
     flex: 1;
 }
 /*.sunnyImage{
-    width: 20px;
+width: 20px;
 } */
 .theMenu {
-    position: relative;
-    display: inline-block;
 }
 .dropdown-content li {
-    position: relative;
-    display: inline-block;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.theMenu{
+    display: flex;
+    flex-direction: column;
 }

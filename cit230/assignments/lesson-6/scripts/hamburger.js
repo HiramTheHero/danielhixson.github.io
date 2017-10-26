@@ -1,4 +1,4 @@
 function toggleNavMenu() {
     //alert("TESTING");
-    document.getElementById("navigation").classList.toggle("theMenu");
+    document.getElementById("navigation").[0]classList.toggle("theMenu");
 }

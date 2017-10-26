@@ -1,35 +1,35 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Franklin Weather</title>
-    <meta name="author" content="Your Name Here">
-    <meta name="description" content="page description placeholder">
-    <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- Google API font reference -->
-    <link href="styles/normalize.css" rel="stylesheet">
-    <!-- normalize useragent/browser defaults -->
-    <link href="styles/main-6.css" rel="stylesheet">
-    <!-- default styles - small/phone views -->
-    <link href="styles/medium-6.css" rel="stylesheet">
-    <!-- medium/tablet views -->
-    <link href="styles/large-6.css" rel="stylesheet">
-    <!-- large/wide/desktop views -->
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Franklin Weather</title>
+        <meta name="author" content="Your Name Here">
+        <meta name="description" content="page description placeholder">
+        <!-- external style references in the proper cascading order -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Google API font reference -->
+        <link href="styles/normalize.css" rel="stylesheet">
+        <!-- normalize useragent/browser defaults -->
+        <link href="styles/main-7.css" rel="stylesheet">
+        <!-- default styles - small/phone views -->
+        <link href="styles/medium-7.css" rel="stylesheet">
+        <!-- medium/tablet views -->
+        <link href="styles/large-7.css" rel="stylesheet">
+        <!-- large/wide/desktop views -->
+    </head>
 
 <body>
 
-    <header>
+    <header class="flexbox1"> <!--This is how you comment in HTML-->
         <img src="images/weather-logo.png" alt="The site logo" width="20px" height="20px">
         <h1>Franklin Weather</h1>
         <div class="subheading">We've Got The Weather</div>
     </header>
 
     <!-- site navigation use placeholder references -->
-    <nav class="dropdown">
+    <nav class="dropdown"> /* Start of flexbox #2 */
         <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
         <ul id="navigation" class="theMenu">
             <li><a href="#">Home</a></li>
@@ -39,14 +39,14 @@
             <li><a href="#">Storm Center</a></li>
             <li><a href="#">Gallery</a></li>
         </ul>
-    </nav>
+    </nav> /* End of flexbox #2 */
 
-    <main>
+    <main> /* Start of flexbox #3 */
         <h2>The City of Franklin</h2>
         <figure>
             <img src="images/farming-image.jpeg">
         </figure>
-        <section>
+        <section class="flexbox3">
             <h3>Weather Summary</h3>
             <div class="highlow">
                 <p>High:</p>
@@ -64,9 +64,9 @@
                 <p>Precipitation:</p>
                 <p>Wind Speed:</p>
             </div>
-        </section>
+        </section> /*End of flexbox #3 */
 
-        <section class="forecast">
+        <section class="forecast"> /*Start of flexbox #4 */
             <h3>10 Day Forecast</h3>
             <table>
                 <thead>
@@ -98,30 +98,22 @@
                     </tr>
                 </tbody>
             </table>
-        </section>
+        </section> /*End of flexbox #4 */
 
-        <article>
+        <article> /*Start of flexbox #5 */
             <h3>Franklin Breaks Record</h3>
             <p class="town-article">
                 <img src="images/trophy.jpg" alt="trophy picture"> short article content placeholder
             </p>
-        </article>
+        </article> /*End of flexbox #5 */
 
     </main>
 
-    <footer>
+    <footer> /*Start of flexbox #6 */
         <aside>
             Contact information placeholder
         </aside>
         <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
-    </footer>
-
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/currentdate.js">
-        Current Date
-
-    </script>
+    </footer> /*End of flexbox #6 */
 
 </body>
-
-</html>
