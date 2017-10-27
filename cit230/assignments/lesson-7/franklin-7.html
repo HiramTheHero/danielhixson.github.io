@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Franklin Weather</title>
-        <meta name="author" content="Your Name Here">
-        <meta name="description" content="page description placeholder">
-        <!-- external style references in the proper cascading order -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <!-- Google API font reference -->
-        <link href="styles/normalize.css" rel="stylesheet">
-        <!-- normalize useragent/browser defaults -->
-        <link href="styles/main-7.css" rel="stylesheet">
-        <!-- default styles - small/phone views -->
-        <link href="styles/medium-7.css" rel="stylesheet">
-        <!-- medium/tablet views -->
-        <link href="styles/large-7.css" rel="stylesheet">
-        <!-- large/wide/desktop views -->
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Franklin Weather</title>
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="page description placeholder">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main-7.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium-7.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large-7.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+</head>
 
-<body>
+<body class="flexboxMain">
 
-    <header class="flexbox1"> <!--This is how you comment in HTML-->
-        <img src="images/weather-logo.png" alt="The site logo" width="20px" height="20px">
-        <h1>Franklin Weather</h1>
-        <div class="subheading">We've Got The Weather</div>
+    <header class="flexbox1">
+        <!--This is how you comment in HTML-->
+        <img src="images/weather-logo.png" alt="The site logo" class="flexitem1-1">
+        <h1 class="flexitem1-2">Franklin Weather</h1>
+        <div class="flexitem1-3">We've Got The Weather</div>
     </header>
 
     <!-- site navigation use placeholder references -->
-    <nav class="dropdown"> /* Start of flexbox #2 */
+    <nav class="flexbox2">
         <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
         <ul id="navigation" class="theMenu">
             <li><a href="#">Home</a></li>
@@ -39,36 +40,36 @@
             <li><a href="#">Storm Center</a></li>
             <li><a href="#">Gallery</a></li>
         </ul>
-    </nav> /* End of flexbox #2 */
+    </nav>
 
-    <main> /* Start of flexbox #3 */
-        <h2>The City of Franklin</h2>
-        <figure>
-            <img src="images/farming-image.jpeg">
-        </figure>
+    <main>
         <section class="flexbox3">
-            <h3>Weather Summary</h3>
-            <div class="highlow">
+            <h2 class="flexitem3-1">The City of Franklin</h2>
+            <figure class="flexitem3-2">
+                <img src="images/farming-image.jpeg">
+            </figure>
+            <h3 class="flexitem3-3">Weather Summary</h3>
+            <div class="flexitem3-4">
                 <p>High:</p>
                 <p>Low:</p>
             </div>
-            <div class="current">
+            <div class="flexitem3-5">
                 Sunny
-                <picture class="sunnyImage">
+                <picture class="flexitem3-6">
                     <source media="(min-width: 64em)" srcset="images/franklin-large.jpg">
                     <source media="(min-width: 37.5em)" srcset="images/franklin-medium.jpg">
                     <img src="images/franklin-small.jpg" alt="Sunny Skies" style="width: auto">
                 </picture>
             </div>
-            <div class="conditions">
+            <div class="flexitem3-7">
                 <p>Precipitation:</p>
                 <p>Wind Speed:</p>
             </div>
-        </section> /*End of flexbox #3 */
+        </section>
 
-        <section class="forecast"> /*Start of flexbox #4 */
-            <h3>10 Day Forecast</h3>
-            <table>
+        <section class="flexbox4">
+            <h3 class="flexitem4-1">10 Day Forecast</h3>
+            <table class="flexitem4-2">
                 <thead>
                     <tr>
                         <th>Day 1</th>
@@ -83,7 +84,7 @@
                         <th>Day 10</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="flexitem4-3">
                     <tr>
                         <td>89&deg;F</td>
                         <td>87&deg;F</td>
@@ -98,22 +99,22 @@
                     </tr>
                 </tbody>
             </table>
-        </section> /*End of flexbox #4 */
+        </section>
 
-        <article> /*Start of flexbox #5 */
-            <h3>Franklin Breaks Record</h3>
-            <p class="town-article">
+        <article class="flexbox5">
+            <h3 class="flexitem5-1">Franklin Breaks Record</h3>
+            <p class="flexitem5-2">
                 <img src="images/trophy.jpg" alt="trophy picture"> short article content placeholder
             </p>
-        </article> /*End of flexbox #5 */
+        </article>
 
     </main>
 
-    <footer> /*Start of flexbox #6 */
-        <aside>
+    <footer class="flexbox6">
+        <aside class="flexitem6-1">
             Contact information placeholder
         </aside>
-        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
-    </footer> /*End of flexbox #6 */
+        <p class="flexitem6-2">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
+    </footer>
 
 </body>

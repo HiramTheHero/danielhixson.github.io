@@ -5,7 +5,7 @@
 
     section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
 
-    article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+    article p.flexitem5-2 img { width: 62.666%; float:right; }  /* responsive images */
     ul {
         display: flex;
         flex-direction: row-reverse;
@@ -32,22 +32,7 @@
     button {
         display: none;
     }
-    .forecast {
+    .flexbox4 {
         display: inline-block;
-    }
-    .flexbox3{
-        display: flex;
-        background-color: white;
-        flex-flow: row;
-    }
-    .flexbox3 h2 {
-        justify-content: center;
-        background-color: blue;
-        align-content: flex-start;
-    }
-    .flexbox3 .highlow{
-        flex-direction: column;
-        background-color: green;
-        align-content: flex-end;
     }
 }

@@ -68,7 +68,7 @@ main figure img {
 
 section {}
 
-article p.town-article img {
+article p.flexitem5-2 img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     position: relative;
     width: 200px;
@@ -99,36 +99,77 @@ footer>p {
 li {
     display: none;
 }
-
-.forecast {
-    display: none;
-}
 .container{
     position: relative;
 }
-.weatherdata{
-    display: inline-block;
-    vertical-align: top;
-    width: 75%;
-}
-.current{
+.flexitem3-5{
     flex: 1;
 }
-/*.sunnyImage{
-width: 20px;
-} */
 .theMenu {
 }
-.dropdown-content li {
+.flexbox2-content li {
 }
 
-.flexbox1{
+
+.flexbox1 {
     display: flex;
-    flex-direction: column;
+    background-color: yellow;
+    min-width: 20%;
+    min-height: 200px;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-.theMenu{
-    display: flex;
-    flex-direction: row;
+.flexitem1-1 {
+    align-self: flex-start;
 }
+.flexitem1-2 {
+
+}
+.flexitem1-3 {
+    justify-content: center;
+}
+
+.flexbox3 {
+    display: flex;
+    background-color: green;
+    min-height: 200px;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.flexbox4 {
+    display: none;
+    background-color: white;
+}
+
+
+.flexbox5 {
+    display: flex;
+    background-color: red;
+    min-height: 275px;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flexitem5-1 {
+
+}
+.flexitem5-2 {
+    align-self: flex-end;
+}
+
+.flexbox6 {
+    display: flex;
+    align-items: center;
+        background-color: blue;
+        min-width: 95%;
+        min-height: 75px;
+        position: fixed;
+        bottom: 0;
+}
+.flexitem6-1{
+
+}
+
