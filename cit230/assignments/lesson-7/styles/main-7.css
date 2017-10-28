@@ -71,14 +71,14 @@ section {}
 article p.flexitem5-2 img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     position: relative;
-    width: 200px;
+    width: 10%;
     /* fill the page in the small/phone view */
     margin: 10px;
 }
 
 footer {
     position: fixed;
-    width: 5000px;
+    width: 100%;
     background-color: white;
 }
 
@@ -116,18 +116,19 @@ li {
     background-color: yellow;
     min-width: 20%;
     min-height: 200px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
 }
 .flexitem1-1 {
-    align-self: flex-start;
+    width: 50px;
+    height: 50px;
 }
 .flexitem1-2 {
 
 }
 .flexitem1-3 {
-    justify-content: center;
+    background-color: aqua;
 }
 
 .flexbox3 {
@@ -166,10 +167,21 @@ li {
         background-color: blue;
         min-width: 95%;
         min-height: 75px;
-        position: fixed;
-        bottom: 0;
 }
 .flexitem6-1{
 
 }
 
+.galleryGrid{
+    display: grid;
+    grid-template-columns: 1 fr 1 fr;
+    grid-gap: 20px;
+}
+.griditem {
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+    background-color: greenyellow;
+    padding: 0.2em;
+}

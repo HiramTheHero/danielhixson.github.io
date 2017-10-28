@@ -33,6 +33,10 @@
         display: none;
     }
     .flexbox4 {
-        display: inline-block;
+        display: flex;
+    }
+    .galleryGrid{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
     }
 }
