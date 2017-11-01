@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+
+    <head w3-include-HTML="modules/head.html">
+    <title>Franklin Weather</title>
+</head>
+
+<body class="flexboxMain">
+
+    <header w3-include-HTML="modules/header.html" class="flexbox1">
+
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav w3-include-HTML="modules/nav.html" class="flexbox2">
+
+    </nav>
+
+    <main>
+        <section class="flexbox3">
+            <h2 class="flexitem3-1">The City of Franklin</h2>
+            <figure class="flexitem3-2">
+                <img src="images/farming-image.jpeg">
+            </figure>
+            <h3 class="flexitem3-3">Weather Summary</h3>
+            <div class="flexitem3-4">
+                <p>High:</p>
+                <p>Low:</p>
+            </div>
+            <div class="flexitem3-5">
+                Sunny
+                <picture class="flexitem3-6">
+                    <source media="(min-width: 64em)" srcset="images/franklin-large.jpg">
+                    <source media="(min-width: 37.5em)" srcset="images/franklin-medium.jpg">
+                    <img src="images/franklin-small.jpg" alt="Sunny Skies" style="width: auto">
+                </picture>
+            </div>
+            <div class="flexitem3-7">
+                <p>Precipitation:</p>
+                <p>Wind Speed:</p>
+            </div>
+        </section>
+
+        <section class="flexbox4">
+            <h3 class="flexitem4-1">10 Day Forecast</h3>
+            <table class="flexitem4-2">
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody class="flexitem4-3">
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article class="flexbox5">
+            <h3 class="flexitem5-1">Franklin Breaks Record</h3>
+            <p class="flexitem5-2">
+                <img src="images/trophy.jpg" alt="trophy picture"> short article content placeholder
+            </p>
+        </article>
+
+    </main>
+
+    <footer w3-include-HTML="modules/footer.html" class="flexbox6">
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+    </footer>
+
+</body>
